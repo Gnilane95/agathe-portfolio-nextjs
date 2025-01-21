@@ -15,6 +15,7 @@ export default {
       },
   	extend: {
   		colors: {
+			customBgHeader: 'hsl(231, 15%, 18%)',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
