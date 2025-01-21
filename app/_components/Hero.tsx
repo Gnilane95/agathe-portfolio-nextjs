@@ -1,16 +1,28 @@
+import { ComponentPropsWithoutRef } from "react";
 import { Section } from "./Section";
+import { cn } from "@/lib/utils";
+import { Linkdinicon } from "./icons/Linkdinicon";
+import Link from "next/link";
+
+const Code = ({className, ...props}: ComponentPropsWithoutRef<"span">) =>{
+    return <span className={cn("bg-accent/30 font-mono border border-accent px-1 py-0.5 hover:bg-accent/50 transition-colors rounded-sm text-primary", className)} {...props}
+
+    />
+}
 export const Hero = () => {
-    return <Section className="flex max-md:flex-col items-start">
-        <div className="flex-[2]">
-            <h2 className="font-caption text-4xl">Agathe Diouf</h2>
-            <h3>
+    return <Section className="flex max-md:flex-col items-start gap-4">
+        <div className="flex-[2] flex flex-col gap-2">
+            <h2 className="font-caption text-5xl text-primary font-bold">Agathe Diouf</h2>
+            <h3 className="font-caption text-xl">
                 Conceptrice - développeuse d'applications web
             </h3>
-            <p>
-                Je suis Agathe DIOUF, conceptrice et développeuse d'applications web passionnée par la création de solutions digitales performantes et intuitives. Spécialisée dans la conception d'interfaces utilisateur élégantes et l'intégration de technologies modernes, j'accompagne les projets du début à la fin pour offrir des expériences utilisateurs fluides et innovantes. Découvrez mes réalisations et contactez-moi pour discuter de vos projets web.
+            <p className="text-base mt-2">
+                
+                Je conçois et développe des applications (sites) web sur mesure et adaptées à votre besoin. J'accompagne les projets du début à la fin pour offrir des expériences utilisateurs fluides et innovantes. Découvrez mes <Code className="inline-flex items-center gap-1">réalisations</Code> et <Code className="inline-flex items-center gap-1">contactez-moi</Code> pour discuter de vos projets web.
+                
             </p>
         </div>
-        <div className="flex-1">
+        <div className="flex-1h max-md:m-auto ml-auto">
             <img src="/img/mon-profil.jpg" alt="Photo de profil de Agathe Diouf" className="rounded-full h-52 w-52"/>
         </div>
     </Section>
