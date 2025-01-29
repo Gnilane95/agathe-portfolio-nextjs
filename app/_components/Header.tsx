@@ -11,7 +11,7 @@ export const Header = () => {
             <Section className="flex items-baseline">
                 <Link href="/">
                     <h1 className="text-lg font-bold text-primary">
-                        agathe.com
+                        agathe.diouf
                     </h1> 
                 </Link>
                 <div className="flex-1"/>

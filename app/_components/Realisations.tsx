@@ -6,13 +6,14 @@ import { Badge } from "@/components/ui/badge";
 
 export const Realisations = () => {
     return (
-    <Section className="">
-        <h2 className="font-caption text-5xl text-primary font-bold">Mes réalisations</h2>
-        <div className="md:grid md:grid-cols-2 flex max-md:flex-col gap-4">
+    <Section className="flex flex-col items-start gap-4" id="mes-realisations">
+        <Badge variant='outline'>Expériences</Badge>
+        <h2 className="pb-2 text-3xl font-semibold tracking-tight first:mt-0">Mes réalisations</h2>
+        <div className="md:grid md:grid-cols-3 md:gap-6 flex flex-col gap-4">
             {WORKS.map((work, index)=>
                 (
-                <Card className="p-4">
-                    <div className="flex flex-col">
+                <Card className="">
+                    <div className="flex flex-col gap-2 flex-1">
                         
                         <Work
                             key={index}
@@ -28,9 +29,16 @@ export const Realisations = () => {
 
 const WORKS : WorkProps[] = [
     {
+        image : "/img/mes-realisations/realisation-agathe.png",
+        title : "Portfolio Agathe Diouf",
+        role : "Développé avec NextJs/TailwindCss",
+        date : "janvier 2025",
+        url : "/",
+    },
+    {
         image : "/img/mes-realisations/realisation-essoham.png",
         title : "Portfolio Essoham Ali",
-        role : "Développer avec NextJs et TailwindCss",
+        role : "Développé avec NextJs et TailwindCss",
         date : "2022, refonte en janvier 2025",
         url : "https://www.aliessoham-maths.fr/",
         freelance : true,
@@ -38,7 +46,7 @@ const WORKS : WorkProps[] = [
     {
         image : "/img/mes-realisations/realisation-cfrsd.png",
         title : "Site vitrine pour le CFRSD/Sénégal",
-        role : "Développer WordPress/Kadence",
+        role : "Développé avec WordPress/Kadence",
         date : "2024",
         url : "https://cfrsd.com/",
         freelance : true,
@@ -46,7 +54,7 @@ const WORKS : WorkProps[] = [
     {
         image : "/img/mes-realisations/realisation-autrive.png",
         title : "Site vitrine pour Edouard Autrive, Gestalt praticien",
-        role : "Créer avec Wix",
+        role : "Créé avec Wix",
         date : "2024",
         url : "https://www.edouardautrivegestalt.com/",
         freelance : true,
@@ -54,9 +62,9 @@ const WORKS : WorkProps[] = [
     {
         image : "/img/mes-realisations/realisation-trecu.png",
         title : "Site vitrine et de réservation pour Mathilde Trécu, Gestalt praticienne",
-        role : "Créer avec Wix",
+        role : "Créé avec Wix",
         date : "2024",
-        url : "https://www.edouardautrivegestalt.com/",
+        url : "https://www.mathildetrecu.fr/",
         freelance : true,
     },
 ]

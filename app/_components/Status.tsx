@@ -1,9 +1,10 @@
 import { Card } from "@/components/ui/card";
-import { Code, LucideIcon, MessageCircle, Rss, StickyNote, Weight } from "lucide-react";
+import { ArrowDown, ArrowDownUp, ArrowUpDown, Code as CodeIcon, LucideIcon, MessageCircle, Rss, StickyNote, Weight } from "lucide-react";
 import { ContactCard } from "../_components/ContactCard";
 import Link from "next/link";
 import { Section } from "./Section";
 import { Badge } from "@/components/ui/badge";
+import { Code } from "../_components/Code";
 
 export const Status = () => {
     return (
@@ -40,11 +41,11 @@ export const Status = () => {
                     
                     ))}
                 </div>
-                <Link href="/mesRealisations" className="text-lg underline pt-3">Voir mes réalisations</Link>
+                <Link href="#mes-realisations" className="text-base  "><Code className="mt-2 px-3 items-center inline-flex gap-1">Voir mes réalisations<ArrowDown/> </Code></Link>
+                
             </Card>
         </div>
         <div className="flex-[2] flex flex-col gap-4 w-full">
-            
             <Card className="p-4 flex-1f flex flex-col gap-4">
                 <p className="text-lg text-muted-foreground">
                     Contactez-moi
@@ -70,7 +71,7 @@ export const Status = () => {
 
 const SIDE_PROJECTS : SideProjectProps[] =[
     {
-        Logo : Code,
+        Logo : CodeIcon,
         title : "CodeLine",
         description : "A plateform for developpers to share their work",
         url : "/",
@@ -124,13 +125,13 @@ const SideProject = (props : SideProjectProps) => {
     );
 }
 const WORKS : WorkProps[] = [
-    // {
-    //     image : "/img/logo-agathe.png",
-    //     title : "Portfolio Agathe Diouf",
-    //     role : "Développeuse NextJs/TailwindCss",
-    //     date : "janvier 2025",
-    //     url : "/",
-    // },
+    {
+        image : "/img/logo-agathe.png",
+        title : "Portfolio Agathe Diouf",
+        role : "NextJs/TailwindCss",
+        date : "janvier 2025",
+        url : "/",
+    },
     {
         image : "/img/logo-essoham.png",
         title : "Portfolio Essoham Ali",
@@ -139,14 +140,14 @@ const WORKS : WorkProps[] = [
         url : "https://www.aliessoham-maths.fr/",
         freelance : true,
     },
-    {
-        image : "/img/Logo_CFRSD.png",
-        title : "Site vitrine pour le CFRSD",
-        role : "WordPress/Kadence",
-        date : "2024",
-        url : "https://cfrsd.com/",
-        freelance : true,
-    },
+    // {
+    //     image : "/img/Logo_CFRSD.png",
+    //     title : "Site vitrine pour le CFRSD",
+    //     role : "WordPress/Kadence",
+    //     date : "2024",
+    //     url : "https://cfrsd.com/",
+    //     freelance : true,
+    // },
     // {
     //     image : "/img/Logo seul Arbre balacoire.png",
     //     title : "Site vitrine pour Edouard Autrive, Gestalt praticien",

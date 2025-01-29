@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Code } from "../_components/Code";
 import { Section } from "./Section";
 
@@ -6,11 +7,15 @@ export const Hero = () => {
         <div className="flex-[3] flex flex-col gap-2">
             <h2 className="font-caption text-5xl text-primary font-bold">Agathe Diouf</h2>
             <h3 className="font-caption text-xl">
-                Conceptrice - développeuse d'applications web
+                Développeuse d'applications web
             </h3>
             <p className="text-base mt-2">
                 
-                Je conçois et développe des applications (sites) web sur mesure et adaptées à votre besoin. J'accompagne les projets du début à la fin pour offrir des expériences utilisateurs fluides et innovantes. Découvrez mes <Code className="inline-flex items-center gap-1">réalisations</Code> et <Code className="inline-flex items-center gap-1">contactez-moi</Code> pour discuter de vos projets web.
+                Sites vitrines, sites de réservation, sites e-commerce..., quelque soit votre idée, je la transforme en un site attrayant, optimisé et performant. Découvrez mes 
+                <Link href="#mes-realisations" className="ml-1">
+                    <Code className="inline-flex items-center gap-1">réalisations</Code>
+                </Link> 
+                et/ou <Link href="#me-contacter"><Code className="inline-flex items-center gap-1">contactez-moi</Code></Link> pour discuter de votre projet.
                 
             </p>
         </div>

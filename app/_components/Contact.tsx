@@ -1,21 +1,34 @@
 import { Code } from "../_components/Code";
 import { Section } from "./Section";
+import { Badge } from "@/components/ui/badge";
+import { ContactCard } from "../_components/ContactCard";
 
-export const Hero = () => {
-    return <Section className="flex max-md:flex-col items-start gap-4">
-        <div className="flex-[3] flex flex-col gap-2">
-            <h2 className="font-caption text-5xl text-primary font-bold">Agathe Diouf</h2>
-            <h3 className="font-caption text-xl">
-                Conceptrice - développeuse d'applications web
-            </h3>
-            <p className="text-base mt-2">
-                
-                Je conçois et développe des applications (sites) web sur mesure et adaptées à votre besoin. J'accompagne les projets du début à la fin pour offrir des expériences utilisateurs fluides et innovantes. Découvrez mes <Code className="inline-flex items-center gap-1">réalisations</Code> et <Code className="inline-flex items-center gap-1">contactez-moi</Code> pour discuter de vos projets web.
-                
-            </p>
-        </div>
-        <div className="flex-[2] max-md:m-auto ml-auto">
-            <img src="/img/mon-profil.jpg" alt="Photo de profil de Agathe Diouf" className="rounded-fulls h-52s w-52s w-full h-auto max-w-xs max-md:w-56 rounded-full"/>
-        </div>
-    </Section>
+export const Contact = () => {
+    return <Section id="me-contacter" className="flex flex-col items-start gap-4">
+    <Badge variant='outline'>Contactez-moi</Badge>
+   <h2 className="pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+        Je serais heureux de travailler avec vous !
+    </h2>
+    <div className="md:grid md:grid-cols-3 md:gap-6 flex max-md:flex-col gap-4 w-full">
+        <ContactCard
+            name="agathe.diouf"
+            image="/img/mon-profil.jpg"
+            mediumImage="/img/gmail.png"
+            description="agathe.ali20
+            @gmail.com"
+        />
+        <ContactCard
+            name="agathe.diouf"
+            image="/img/mon-profil.jpg"
+            mediumImage="/img/logo-linkedin-rond.png"
+            description="168"
+        />
+        <ContactCard
+            name="Angers"
+            image="/img/mon-profil.jpg"
+            mediumImage="https://img.freepik.com/vecteurs-libre/emplacement-epingle-rouge-moitie-ombre_78370-8193.jpg?semt=ais_hybrid"
+            description="49000"
+        />
+    </div>
+</Section>
 }
