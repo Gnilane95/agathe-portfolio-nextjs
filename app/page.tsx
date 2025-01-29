@@ -15,6 +15,7 @@ export default function Home() {
       <Status/>
       <Spacing size="md"/>
       <Skills/>
+      <Spacing size="md"/>
     </main>
   );
 }
