@@ -36,7 +36,7 @@ export const ContactCard = (props : {
                         {props.description}
                     </p>
                 </div>
-                <ArrowUpRight className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform mr-2" size={16}/>
+                {/* <ArrowUpRight className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform mr-2" size={16}/> */}
             </Card>
     )
 }
