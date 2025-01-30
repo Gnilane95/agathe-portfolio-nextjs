@@ -40,10 +40,10 @@ export const Status = () => {
                     description="agathe.ali20@gmail.com"
                 />
                 <ContactCard
-                    name="Agathe Diouf"
-                    image="/img/mon-profil.jpg"
-                    mediumImage="/img/logo-linkedin-rond.png"
-                    description="168"
+                name="Agathe Diouf"
+                image="/img/mon-profil.jpg"
+                mediumImage="/img/logo-linkedin-rond.png"
+                description="168"
                 />
             </Card>
         </div>
