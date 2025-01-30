@@ -87,7 +87,6 @@ export default function RootLayout({
     <html lang="fr" className="h-full"> 
       <Head>
         <title>{metadata.title}</title>
-        <meta name="google-site-verification" content="ZBGN58gbzMiJHidcbT8ZKCQBPxNHNmx_zLib3EGBoh8" />
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
         <meta name="robots" content={metadata.robots} />
