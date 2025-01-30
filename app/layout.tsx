@@ -38,13 +38,13 @@ type CustomMetadata = {
   };
 };
 export const metadata: CustomMetadata = {
-  title: "Agathe DIOUF . Dévelopeuse d'applications web",
+  title: "Agathe DIOUF . Développeuse d'applications web",
   description: "Sites vitrines, sites de réservation, sites e-commerce,..., refonte ou création de sites web, quelque soit votre idée, je la transforme en un site attrayant, optimisé et performant.",
   keywords: "Agathe Diouf, freelance développeur web, développeur wordpress, développeur wix, NextJs",
   robots: "index, follow",
 
   openGraph: {
-    title: "Agathe DIOUF . Dévelopeuse d'applications web",
+    title: "Agathe DIOUF . Développeuse d'applications web",
     description: "Refonte ou création de sites web, quelque soit votre idée, je la transforme en un site attrayant, optimisé et performant.",
     url: "https://agathe-portfolio-h9cryey64-gnilane95s-projects.vercel.app/",
     siteName: "Agathe DIOUF",
