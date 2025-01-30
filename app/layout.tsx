@@ -69,7 +69,7 @@ export const metadata: CustomMetadata = {
     "@type": "Person",
     name: "Agathe Diouf",
     url: "https://agathe-portfolio-h9cryey64-gnilane95s-projects.vercel.app/",
-    image: "/img/mon-profil.jpg",
+    image: "/img/capture-agathe-pc.png",
     sameAs: [
       "https://www.linkedin.com/in/agathe-diouf/",
       "https://github.com/Gnilane95",
