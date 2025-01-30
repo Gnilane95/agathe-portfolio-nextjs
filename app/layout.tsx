@@ -46,11 +46,11 @@ export const metadata: CustomMetadata = {
   openGraph: {
     title: "Agathe DIOUF . Dévelopeuse d'applications web",
     description: "Refonte ou création de sites web, quelque soit votre idée, je la transforme en un site attrayant, optimisé et performant.",
-    url: "https://ton-site.com",  // Remplace avec l'URL réelle de ton site
+    url: "https://agathe-portfolio-h9cryey64-gnilane95s-projects.vercel.app/",
     siteName: "Agathe DIOUF",
     images: [
       {
-        url: "/img/mon-profil.jpg",  // Image à utiliser pour le partage sur les réseaux sociaux
+        url: "/img/capture-agathe-pc.png",
         width: 1200,
         height: 630,
       },
@@ -59,16 +59,16 @@ export const metadata: CustomMetadata = {
   },
 
   twitter: {
-    card: "summary_large_image",  // Choix du type de carte Twitter
+    card: "summary_large_image",
     title: "Agathe DIOUF - Développeuse d'applications web",
     description: "Refonte ou création de sites web, quelque soit votre idée, je la transforme en un site attrayant, optimisé et performant.",
-    images: ["/img/mon-profil.jpg"],  // Image associée à la carte Twitter
+    images: ["/img/capture-agathe-pc.png"],
   },
   jsonLd: {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Agathe Diouf",
-    url: "https://ton-site.com",
+    url: "https://agathe-portfolio-h9cryey64-gnilane95s-projects.vercel.app/",
     image: "/img/mon-profil.jpg",
     sameAs: [
       "https://www.linkedin.com/in/agathe-diouf/",
