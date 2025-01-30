@@ -1,8 +1,8 @@
 import { Card } from "@/components/ui/card";
-import { ArrowUpRight, Code, LucideIcon, MessageCircle, Rss, StickyNote, Weight } from "lucide-react";
 import Link from "next/link";
 import { Section } from "./Section";
 import { Badge } from "@/components/ui/badge";
+import Image from "next/image";
 
 export const Realisations = () => {
     return (
@@ -12,11 +12,10 @@ export const Realisations = () => {
         <div className="md:grid md:grid-cols-3 md:gap-6 flex flex-col gap-4">
             {WORKS.map((work, index)=>
                 (
-                <Card className="">
+                <Card key={index} className="">
                     <div className="flex flex-col gap-2 flex-1">
                         
                         <Work
-                            key={index}
                             {...work}
                             />
                     </div>
@@ -79,10 +78,12 @@ type WorkProps = {
 const Work = (props : WorkProps) => {
     return (
         <Link href={props.url} className="flex flex-col justify-center items-center hover:bg-accent/50 transition-colors p-1 rounded">
-                <img 
-                src={props.image} 
-                alt={props.title} 
-                className="w-full rounded"/>
+            <Image
+            src={props.image} 
+            alt={props.title}
+            width={350}
+            height={0}
+            className="rounded object-cover p-2"/>
             <div className="text-center">
                 <div className="">
                     <p className="text-lg font-semibold">

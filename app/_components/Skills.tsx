@@ -1,4 +1,3 @@
-import { Card } from "@/components/ui/card";
 import { Code } from "../_components/Code";
 import Link from "next/link";
 import { Section } from "./Section";
@@ -18,7 +17,7 @@ export const Skills = () => {
             <div className="flex flex-col gap-2 flex-1">
                 <NextjsLogo size={42} className="animate-spin" style={{ animationDuration : "10s" }}/>
                 <h3 className="text-2xl font-semibold tracking-tight">NextJs</h3>
-                <p className="text-sm text-muted-foreground">Mon framework principal est <Code>NextJs</Code>. Je l'utilise pour toute sorte d'application web, en frontend comme en backend.</p>
+                <p className="text-sm text-muted-foreground">Mon framework principal est <Code>NextJs</Code>. Je l&apos;utilise pour toute sorte d&apos;application web, en frontend comme en backend.</p>
             </div>
             <div className="flex flex-col gap-2 flex-1">
                 <WordpressLogo size={42}/>

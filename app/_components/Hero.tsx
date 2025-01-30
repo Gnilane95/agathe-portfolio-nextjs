@@ -1,17 +1,18 @@
 import Link from "next/link";
 import { Code } from "../_components/Code";
 import { Section } from "./Section";
+import Image from "next/image";
 
 export const Hero = () => {
     return <Section className="flex max-md:flex-col items-start gap-4">
         <div className="flex-[3] flex flex-col gap-2">
             <h2 className="font-caption text-5xl text-primary font-bold">Agathe Diouf</h2>
             <h3 className="font-caption text-xl">
-                Développeuse d'applications web
+                Développeuse d&apos;applications web
             </h3>
             <p className="text-base mt-2">
                 
-                Sites vitrines, sites de réservation, sites e-commerce..., quelque soit votre idée, je la transforme en un site attrayant, optimisé et performant. Découvrez mes 
+                Sites vitrines, sites de réservation, sites e-commerce,..., refonte ou création de sites web, quelque soit votre idée, je la transforme en un site attrayant, optimisé et performant. Découvrez mes 
                 <Link href="#mes-realisations" className="ml-1">
                     <Code className="inline-flex items-center gap-1">réalisations</Code>
                 </Link> 
@@ -20,7 +21,14 @@ export const Hero = () => {
             </p>
         </div>
         <div className="flex-[2] max-md:m-auto ml-auto">
-            <img src="/img/mon-profil.jpg" alt="Photo de profil de Agathe Diouf" className="rounded-fulls h-52s w-52s w-full h-auto max-w-xs max-md:w-56 rounded-full"/>
+            <div className="relative w-full max-w-xs max-md:w-56 h-56 md:h-72">
+                <Image 
+                    src="/img/mon-profil.jpg" 
+                    alt="Photo de profil de Agathe Diouf" 
+                    fill 
+                    className="rounded-full"
+                />
+            </div>
         </div>
     </Section>
 }

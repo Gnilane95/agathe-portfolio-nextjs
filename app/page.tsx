@@ -2,7 +2,6 @@ import {Hero} from "./_components/Hero";
 import {Header} from "./_components/Header";
 import { Spacing } from "./_components/Spacing";
 import { Status } from "./_components/Status";
-import Link from "next/link";
 import { Skills } from "./_components/Skills";
 import { Contact } from "./_components/Contact";
 import { Footer } from "./_components/Footer";

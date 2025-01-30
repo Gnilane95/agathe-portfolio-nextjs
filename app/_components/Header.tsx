@@ -1,6 +1,6 @@
 import { Section } from "./Section";
-import { Button, buttonVariants } from "@/components/ui/button";
-import { GitHubicon } from "./icons/githubicon";
+import { buttonVariants } from "@/components/ui/button";
+import { GitHubicon } from "./icons/GitHubicon";
 import { Linkdinicon } from "./icons/Linkdinicon";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
