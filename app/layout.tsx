@@ -11,6 +11,7 @@ const AnekTelugu = Anek_Telugu({
 });
 type CustomMetadata = {
   title: string;
+  icons :string;
   description: string;
   keywords: string;
   robots: string;
@@ -40,6 +41,7 @@ type CustomMetadata = {
 export const metadata: CustomMetadata = {
   title: "Agathe DIOUF . Développeuse d'applications web",
   description: "Sites vitrines, sites de réservation, sites e-commerce,..., refonte ou création de sites web, quelque soit votre idée, je la transforme en un site attrayant, optimisé et performant.",
+  icons:"/favicon.ico",
   keywords: "Agathe Diouf, freelance développeur web, développeur wordpress, développeur wix, NextJs",
   robots: "index, follow",
 
@@ -50,7 +52,7 @@ export const metadata: CustomMetadata = {
     siteName: "Agathe DIOUF",
     images: [
       {
-        url: "/img/capture-agathe-pc.png",
+        url: "/img/my-tools.png",
         width: 1200,
         height: 630,
       },
@@ -62,14 +64,14 @@ export const metadata: CustomMetadata = {
     card: "summary_large_image",
     title: "Agathe DIOUF - Développeuse d'applications web",
     description: "Refonte ou création de sites web, quelque soit votre idée, je la transforme en un site attrayant, optimisé et performant.",
-    images: ["/img/capture-agathe-pc.png"],
+    images: ["/img/my-tools.png"],
   },
   jsonLd: {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Agathe Diouf",
     url: "https://agathe-portfolio-h9cryey64-gnilane95s-projects.vercel.app/",
-    image: "/img/capture-agathe-pc.png",
+    image: "/img/my-tools.png",
     sameAs: [
       "https://www.linkedin.com/in/agathe-diouf/",
       "https://github.com/Gnilane95",
@@ -91,6 +93,8 @@ export default function RootLayout({
         <meta name="keywords" content={metadata.keywords} />
         <meta name="robots" content={metadata.robots} />
         <link rel="canonical" href={metadata.openGraph.url} />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         
         {/* Open Graph */}
         <meta property="og:title" content={metadata.openGraph.title} />

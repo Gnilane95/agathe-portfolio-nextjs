@@ -8,7 +8,7 @@ export const Contact = () => {
    <h2 className="pb-2 text-3xl font-semibold tracking-tight first:mt-0">
         Je serais heureux de travailler avec vous !
     </h2>
-    <div className="md:grid md:grid-cols-3 md:gap-6 flex max-md:flex-col gap-4 w-full">
+    <div className="md:grid md:grid-cols-3 md:gap-6 flex max-md:flex-col gap-4 w-full h-auto">
         <ContactCard
             url="mailto:agathe.ali20@gmail.com"
             name="agathe.diouf"

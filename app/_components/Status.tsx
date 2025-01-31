@@ -28,8 +28,8 @@ export const Status = () => {
                 
             </Card>
         </div>
-        <div className="flex-[2] flex flex-col gap-4 w-full">
-            <Card className="p-4 flex-1f flex flex-col gap-4">
+        <div className="flex-[2] flex flex-colw-full">
+            <Card className="p-4 flex-1f flex flex-col gap-2.5">
                 <p className="text-lg text-muted-foreground">
                     Contactez-moi
                 </p>
@@ -55,7 +55,7 @@ export const Status = () => {
 
 const WORKS : WorkProps[] = [
     {
-        image : "/img/logo-agathe.png",
+        image : "/favicon.ico",
         title : "Portfolio Agathe Diouf",
         role : "NextJs/TailwindCss",
         date : "janvier 2025",

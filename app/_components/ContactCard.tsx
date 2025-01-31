@@ -11,7 +11,7 @@ export const ContactCard = (props : {
 }) =>{
     return(
         <a href={props.url}>
-            <Card className="p-3.5 bg-accent/10 hover:bg-accent/30 transition-colors group flex items-center gap-4 ">
+            <Card className="p-3.5 bg-accent/10 hover:bg-accent/30 transition-colors group flex items-center gap-4 h-20">
                 <div className="relative w-10 h-10">
                     <Image
                         src={props.image}
