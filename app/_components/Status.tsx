@@ -28,7 +28,7 @@ export const Status = () => {
                 
             </Card>
         </div>
-        <div className="flex-[2] flex flex-colw-full">
+        <div className="flex-[2] flex flex-col w-full">
             <Card className="p-4 flex-1f flex flex-col gap-2.5">
                 <p className="text-lg text-muted-foreground">
                     Contactez-moi
