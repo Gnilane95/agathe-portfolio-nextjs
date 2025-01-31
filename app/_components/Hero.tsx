@@ -20,13 +20,23 @@ export const Hero = () => {
                 
             </p>
         </div>
-        <div className="flex-[2] max-md:m-auto ml-auto">
+        {/* <div className="flex-[2] max-md:m-auto ml-auto">
             <div className="relative w-full max-w-xs max-md:w-56 h-56 md:h-72">
                 <Image 
                     src="/img/mon-profil.jpg" 
                     alt="Photo de profil de Agathe Diouf" 
                     fill 
                     className="rounded-full"
+                />
+            </div>
+        </div> */}
+        <div className="flex-[2] max-md:m-auto ml-auto relative z-10d">
+            <div className="relative w-full max-w-xs max-md:w-56 h-56 md:h-72 z-10">
+                <Image 
+                src="/img/mon-profil.jpg" 
+                alt="Photo de profil de Agathe Diouf" 
+                fill 
+                className="rounded-full"
                 />
             </div>
         </div>
