@@ -34,16 +34,18 @@ export const Status = () => {
                     Contactez-moi
                 </p>
                 <ContactCard
+                    url="mailto:agathe.ali20@gmail.com"
                     name="agathe.diouf"
                     image="/img/mon-profil.jpg"
                     mediumImage="/img/gmail.png"
                     description="agathe.ali20@gmail.com"
                 />
                 <ContactCard
-                name="Agathe Diouf"
-                image="/img/mon-profil.jpg"
-                mediumImage="/img/logo-linkedin-rond.png"
-                description="168"
+                    url="https://www.linkedin.com/in/agathe-diouf/"
+                    name="Agathe Diouf"
+                    image="/img/mon-profil.jpg"
+                    mediumImage="/img/logo-linkedin-rond.png"
+                    description="168"
                 />
             </Card>
         </div>

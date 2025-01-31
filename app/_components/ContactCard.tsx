@@ -1,13 +1,16 @@
 import { Card } from "@/components/ui/card";
+import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 export const ContactCard = (props : {
     image : string,
     mediumImage : string,
     name : string,
     description : string,
+    url?: string
 
 }) =>{
     return(
+        <a href={props.url}>
             <Card className="p-3.5 bg-accent/10 hover:bg-accent/30 transition-colors group flex items-center gap-4 ">
                 <div className="relative w-10 h-10">
                     <Image
@@ -35,7 +38,8 @@ export const ContactCard = (props : {
                         {props.description}
                     </p>
                 </div>
-                {/* <ArrowUpRight className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform mr-2" size={16}/> */}
+                <ArrowUpRight className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform mr-2" size={16}/>
             </Card>
+        </a>
     )
 }
