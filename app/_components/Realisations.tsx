@@ -29,14 +29,14 @@ export const Realisations = () => {
 const WORKS : WorkProps[] = [
     {
         image : "/img/mes-realisations/realisation-agathe.png",
-        title : "Portfolio Agathe Diouf",
+        title : "Portfolio dev. web",
         role : "Développé avec NextJs/TailwindCss",
         date : "janvier 2025",
         url : "/",
     },
     {
         image : "/img/mes-realisations/realisation-essoham.png",
-        title : "Portfolio Essoham Ali",
+        title : "Portfolio enseignant",
         role : "Développé avec NextJs et TailwindCss",
         date : "2022, refonte en janvier 2025",
         url : "https://www.aliessoham-maths.fr/",
@@ -77,7 +77,7 @@ type WorkProps = {
 };
 const Work = (props : WorkProps) => {
     return (
-        <Link href={props.url} className="flex flex-col justify-center items-center hover:bg-accent/50 transition-colors p-1 rounded">
+        <Link href={props.url} className="flex flex-col justify-center items-center hover:bg-accent/50 transition-colors p-2 rounded">
             <Image
             src={props.image} 
             alt={props.title}

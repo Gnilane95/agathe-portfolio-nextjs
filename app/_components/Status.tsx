@@ -56,14 +56,14 @@ export const Status = () => {
 const WORKS : WorkProps[] = [
     {
         image : "/favicon.ico",
-        title : "Portfolio Agathe Diouf",
+        title : "Portfolio dev. web",
         role : "NextJs/TailwindCss",
         date : "janvier 2025",
         url : "/",
     },
     {
         image : "/img/logo-essoham.png",
-        title : "Portfolio Essoham Ali",
+        title : "Portfolio enseignant",
         role : "NextJs/TailwindCss",
         date : "janvier 2025",
         url : "https://www.aliessoham-maths.fr/",
@@ -120,7 +120,7 @@ const Work = (props : WorkProps) => {
                             {props.title}
                         </p>
                     </div>
-                    <div className="flex gap-10">
+                    <div className="flex md:space-x-28 md:flex-row flex-col">
                         <p className="text-lg text-muted-foreground">
                             {props.role}
                         </p>

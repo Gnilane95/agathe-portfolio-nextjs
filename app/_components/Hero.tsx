@@ -14,14 +14,14 @@ export const Hero = () => {
                 
                 Sites vitrines, sites de réservation, sites e-commerce,..., refonte ou création de sites web, quelque soit votre idée, je la transforme en un site attrayant, optimisé et performant. Découvrez mes 
                 <Link href="#mes-realisations" className="ml-1">
-                    <Code className="inline-flex items-center gap-1">réalisations</Code>
+                    <Code className="inline-flex items-center gap-1 mr-1">réalisations</Code>
                 </Link> 
                 et/ou <Link href="#me-contacter"><Code className="inline-flex items-center gap-1">contactez-moi</Code></Link> pour discuter de votre projet.
                 
             </p>
         </div>
         <div className="flex-[2] max-md:m-auto ml-auto">
-            <div className="relative w-full max-w-xs max-md:w-56 h-56 md:h-72 z-10">
+            <div className="relative max-w-xs w-56 h-56 md:w-72 md:h-72 z-10">
                 <Image 
                 src="/img/mon-profil.jpg" 
                 alt="Photo de profil de Agathe Diouf" 
