@@ -1,10 +1,5 @@
-import { Code } from "../_components/Code";
-import Link from "next/link";
 import { Section } from "./Section";
 import { Badge } from "@/components/ui/badge";
-import { NextjsLogo } from "./icons/NextjsLogo";
-import { WordpressLogo } from "./icons/WordpressLogo";
-import { WixLogo } from "./icons/WixLogo";
 import { CodeXml, Paintbrush, Wrench } from "lucide-react";
 
 export const Skills = () => {
