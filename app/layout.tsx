@@ -52,7 +52,7 @@ export const metadata: CustomMetadata = {
     siteName: "Agathe DIOUF",
     images: [
       {
-        url: "/img/my-tools.png",
+        url: "/favicon.ico",
         width: 1200,
         height: 630,
       },
@@ -64,14 +64,14 @@ export const metadata: CustomMetadata = {
     card: "summary_large_image",
     title: "Agathe DIOUF - Développeuse d'applications web",
     description: "Refonte ou création de sites web, quelque soit votre idée, je la transforme en un site attrayant, optimisé et performant.",
-    images: ["/img/my-tools.png"],
+    images: ["/favicon.ico"],
   },
   jsonLd: {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Agathe Diouf",
     url: "https://agathe-portfolio-h9cryey64-gnilane95s-projects.vercel.app/",
-    image: "/img/my-tools.png",
+    image: "/favicon.ico",
     sameAs: [
       "https://www.linkedin.com/in/agathe-diouf/",
       "https://github.com/Gnilane95",

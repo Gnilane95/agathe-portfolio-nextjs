@@ -10,7 +10,7 @@ export const Contact = () => {
     </h2>
     <div className="md:grid md:grid-cols-3 md:gap-6 flex max-md:flex-col gap-4 w-full h-auto">
         <ContactCard
-            url="mailto:agathe.ali20@gmail.com"
+            url={`mailto:${"agathe" + "." + "ali20"}@${"gmail.com"}`}
             name="agathe.diouf"
             image="/img/mon-profil.jpg"
             mediumImage="/img/gmail.png"

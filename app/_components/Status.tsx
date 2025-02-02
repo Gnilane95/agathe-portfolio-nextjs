@@ -34,7 +34,7 @@ export const Status = () => {
                     Contactez-moi
                 </p>
                 <ContactCard
-                    url="mailto:agathe.ali20@gmail.com"
+                    url={`mailto:${"agathe" + "." + "ali20"}@${"gmail.com"}`}
                     name="agathe.diouf"
                     image="/img/mon-profil.jpg"
                     mediumImage="/img/gmail.png"
