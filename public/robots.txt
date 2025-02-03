@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://agathe-portfolio.vercel.app/
+Host: https://agathe-portfolio.vercel.app
 
 # Sitemaps
 Sitemap: https://agathe-portfolio.vercel.app/sitemap.xml
