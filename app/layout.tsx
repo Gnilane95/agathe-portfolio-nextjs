@@ -42,12 +42,12 @@ export const metadata: CustomMetadata = {
   title: "Agathe DIOUF . Développeuse d'applications web",
   description: "Sites vitrines, sites de réservation, sites e-commerce,..., refonte ou création de sites web, quelque soit votre idée, je la transforme en un site attrayant, optimisé et performant.",
   icons:"/favicon.ico",
-  keywords: "Agathe Diouf, freelance développeur web, développeur wordpress, développeur wix, NextJs",
+  keywords: "Agathe Diouf, Développeur web freelance Angers, Développeur Wordpress Angers, Développeur Wix Angers, Développeur NextJs Angers",
   robots: "index, follow",
 
   openGraph: {
-    title: "Agathe DIOUF . Développeuse d'applications web",
-    description: "Refonte ou création de sites web, quelque soit votre idée, je la transforme en un site attrayant, optimisé et performant.",
+    title: "Agathe DIOUF . Freelance Développeuse web Angers",
+    description: "Refonte ou création de sites web, quelque soit votre idée, je la transforme en un site attrayant, optimisé et performant. Je suis Agathe DIOUF, Freelance Développeuse web à Angers",
     url: "https://agathe-portfolio-h9cryey64-gnilane95s-projects.vercel.app/",
     siteName: "Agathe DIOUF",
     images: [

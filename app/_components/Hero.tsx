@@ -8,7 +8,7 @@ export const Hero = () => {
         <div className="flex-[3] flex flex-col gap-2">
             <h2 className="font-caption text-5xl text-primary font-bold">Agathe Diouf</h2>
             <h3 className="font-caption text-xl">
-                Développeuse d&apos;applications web
+                Freelance développeuse web à Angers
             </h3>
             <p className="text-base mt-2">
                 
